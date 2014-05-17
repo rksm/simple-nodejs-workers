@@ -1,0 +1,17 @@
+{
+  "name": "simple-nodejs-workers",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --no-colors --reporter spec --ui bdd tests/test.js"
+  },
+  "author": "Robert Krahn",
+  "license": "MIT"
+}
