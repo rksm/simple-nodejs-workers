@@ -10,7 +10,7 @@
     "expect.js": "*"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --no-colors --reporter spec --ui bdd tests/test.js"
+    "test": "./node_modules/mocha/bin/mocha --reporter spec --ui bdd tests/test.js"
   },
   "author": "Robert Krahn",
   "license": "MIT"
